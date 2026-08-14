@@ -1,0 +1,3 @@
+groq
+telethon
+python-dotenv
