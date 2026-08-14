@@ -15,7 +15,7 @@ load_dotenv()
 
 API_ID = int(os.getenv("TG_API_ID", "39553573"))
 API_HASH = os.getenv("TG_API_HASH", "21b65b49999ccab2e9a167c54d8ca26c")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "21b65b49999ccab2e9a167c54d8ca26c")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 
 SESSION_NAME = "userbot_session"
